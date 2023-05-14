@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111111;
+}
+
+table {
+   width: 80%;
+   height: 70%;
+   border: 5px solid #222222;
+}
+
+th, tr {
+    border: 3px solid #000000;
+    color: #ffffff;
+}
+
+td {
+    border: 3px solid #000000;
+   
+}
+tr:hover{
+transition: 0.5s;
+background-color: grey;
+color: #ffffff;
+font-size: 30px;
+
+}
